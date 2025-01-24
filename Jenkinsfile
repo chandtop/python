@@ -2,7 +2,7 @@ pipeline{
 agent { label 'masternode' }
 
 environment {
-    DOCKER_IMAGE_NAME = 'tbchand/flask'
+    DOCKER_IMAGE_NAME = 'tbchand/python'
     DOCKER_IMAGE_TAG = 'latest'
 }
 
